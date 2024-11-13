@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navbar Styling */
+.navbar-brand img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+
+/* Card Styling for Products Section */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card img {
+    max-height: 150px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Who We Are Section */
+#quienes-somos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contacto img {
+    width: 50px;
+    height: auto;
+}
+
+#contacto p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Map Responsiveness */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+footer a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
